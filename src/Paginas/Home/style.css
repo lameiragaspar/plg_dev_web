@@ -1,0 +1,110 @@
+main{
+    width: 100%;
+}
+main .banner{
+    height: 87vh;
+    background:url(/public/assets/banne.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+.banner .apresentacao{
+    background-color: #00000075;
+    color:#fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.apresentacao h1{
+    font-size: 48px;
+}
+.apresentacao p{
+    font-size: 24px;
+}
+.apresentacao .tecnologias{
+    background-color: #fafafa41;
+    padding: 0 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow:  2px 2px 5px #ffffff83,  -2px -2px 5px #ffffff83;
+}
+.apresentacao .tecnologias img{
+    width: 40px;
+}
+.apresentacao a{
+    background-color: #F0ED40;
+    color: #000;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+/*Fim do banner*/
+/*Seção sobre*/
+main #Sobre{
+    background-color: #121212;
+    width: 100%;
+    padding: 70px 20px;
+}
+#Sobre .tam-max{
+    background-color: #121212;
+    padding: 0px 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#Sobre .tam-max .sobre{
+    background-color: #F0ED40;
+    width: 60%;
+    padding: 80px 70px;
+    text-align: left;
+}
+#Sobre .tam-max .sobre h2{
+    margin-bottom: 10px;
+}
+#Sobre .tam-max .sobre p{
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.tam-max .sobre .contatos{
+    padding: 5px 0;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+}
+.sobre .contatos img{
+    width: 27px;
+    padding-top: 5px;
+    border-bottom: 1px solid #0000003d;
+    border-top: 2px solid #ffffff00;
+}
+.sobre .contatos img:hover{
+    text-decoration: underline;
+    border-top: 2px solid #ffffff;
+    transition: .5s;
+}
+#Sobre .tam-max .foto{
+    background: url(../../../public/assets/person.jpg) no-repeat center;
+    background-size: cover;
+    width: 40%;
+    height: 400px;
+    background-color: brown;
+    position: absolute;
+    right: 50px;
+}
+/*Fim do sobre*/
+/*Seção Projetos*/
+main #Projetos{
+    padding: 50px 0;
+    width: 100%;
+    background-color: #dddddd;
+    color: #000;
+}
