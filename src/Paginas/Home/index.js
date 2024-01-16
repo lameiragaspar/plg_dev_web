@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../Componentes/Header/header.js'
-import Lista from '../../Componentes/Projeto/lista.js'
+import Lista from '../../Componentes/Projeto/lista/lista.js'
 import './style.css'
 
 export default function Home(){
