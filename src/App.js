@@ -1,11 +1,11 @@
 import React from 'react';
-import Home from './Paginas/Home/';
+import Rotas from './Rotas/rotas.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Rotas />
     </div>
   );
 }

@@ -10,8 +10,10 @@
   text-align: center;
 }
 .tam-max{
-  background-color: brown;
   max-width: 1024px;
   margin: 0 auto;
   padding: 20px;
+}
+h2{
+  font-size: 28px;
 }

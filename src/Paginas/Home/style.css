@@ -1,6 +1,7 @@
 main{
     width: 100%;
 }
+/*Configurando o BANNER*/
 main .banner{
     height: 87vh;
     background:url(/public/assets/banne.jpg) no-repeat center bottom;
@@ -36,6 +37,7 @@ main .banner{
 .apresentacao .tecnologias img{
     width: 40px;
 }
+.apresentacao .link,
 .apresentacao a{
     background-color: #F0ED40;
     color: #000;
@@ -44,6 +46,7 @@ main .banner{
     text-decoration: none;
 }
 /*Fim do banner*/
+
 /*Seção sobre*/
 main #Sobre{
     background-color: #121212;
@@ -51,7 +54,6 @@ main #Sobre{
     padding: 70px 20px;
 }
 #Sobre .tam-max{
-    background-color: #121212;
     padding: 0px 20px;
     text-align: left;
     display: flex;
@@ -101,10 +103,15 @@ main #Sobre{
     right: 50px;
 }
 /*Fim do sobre*/
+
 /*Seção Projetos*/
 main #Projetos{
-    padding: 50px 0;
+    padding: 20px 0 50px;
     width: 100%;
     background-color: #121212;
     color: #fff;
+}
+.tema h2{
+    text-align: left;
+    padding-left: 67px;
 }

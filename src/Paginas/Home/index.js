@@ -1,12 +1,13 @@
-import React from 'react'
-import Header from '../../Componentes/Header/header.js'
-import Lista from '../../Componentes/Projeto/lista/lista.js'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Header from '../../Componentes/Header/header.js';
+import Lista from '../../Componentes/Projetos/lista/lista.js';
 import './style.css'
 
 export default function Home(){
     return(
         <>
-            <Header/>
+            <Header />
             <main>
                 <section className='banner'>
                     {/*Imagem de fundo*/}
@@ -19,7 +20,7 @@ export default function Home(){
                             <img src='/assets/js.png' alt='JavaSript' title='JavaSript'/>
                             <img src='/assets/react.png' alt='React JS' title='React JS'/>
                         </div>
-                        <a href='#'>Agende agora</a>
+                        <Link to='/loadingPage'>Agende agora</Link>
                     </div>
                 </section>
                 <section id='Sobre'>
@@ -45,7 +46,9 @@ export default function Home(){
                     </div>
                 </section>
                 <section id='Projetos'>
-                    <h2>Projetos</h2>
+                    <div className='tam-max tema'>
+                        <h2>Projetos</h2>
+                    </div>
                         <Lista />
                 </section>
             </main>
