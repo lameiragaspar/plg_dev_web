@@ -15,7 +15,7 @@ export default function Lista(){
                     botao="Ver projeto"> 
                 <h3>Alfa-Tech</h3>
                 <p>
-                    Projeto feito em react com as tecnnologias... 
+                    Projeto desenvolvido com HTML e CSS puros! <br></br> É um projeto referente a um site de hospedagem onde seus clientes podem usufruir dos melhores serviços ao preço mais barato. 
                 </p>
                 </Card>
 
@@ -25,6 +25,11 @@ export default function Lista(){
                     codigo="https://github.com/lameiragaspar/Barbearia"
                     projeto="https://barbeariaplg.vercel.app/"
                     botao="Ver projeto">
+                    <h3>Barbearia</h3>
+                    <p>
+                        Projeto desenvolvido em React JS! <br></br>
+                        O projeto apresenta uma loadingPage de uma barbearia onde o usuário pode alterar os estilos da página entre ligth e dark.
+                    </p>
 
                 </Card>
                 <Card 
@@ -33,7 +38,11 @@ export default function Lista(){
                     codigo
                     link
                     botao="Em andamento">
-                    
+                    <h3>Netflix</h3>
+                    <p>
+                        Projeto desenvolvido só  com HTML E CSS! <br></br>
+                        O projeto é um clone das páginas de login e cadastro do site da Netflix.
+                    </p>
                 </Card>
             </div>
         </div>

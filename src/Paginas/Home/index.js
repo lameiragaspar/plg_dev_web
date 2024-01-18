@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../../Componentes/Header/header.js';
 import Lista from '../../Componentes/Projetos/lista/lista.js';
+import Footer from '../../Componentes/footer/footer.js';
 import './style.css'
 
 export default function Home(){
@@ -52,6 +53,7 @@ export default function Home(){
                         <Lista />
                 </section>
             </main>
+            <Footer idFooter='Contatos'/>
         </>
     )
 }

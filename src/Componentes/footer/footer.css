@@ -1,0 +1,64 @@
+footer{
+    background-color: #F0ED40;
+}
+footer .tam-max{
+    padding: 20px 0;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.tam-max .contatos{
+    padding: 30px 0;
+    background-color: brown;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contatos .localizacao{
+    line-height: 42px;
+}
+.contatos .localizacao p:first-child{
+    line-height: normal;
+    margin-bottom: -8px;
+    position: relative;
+}
+.contatos .localizacao p span::before{
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 3px;
+    bottom: 0;
+    border-radius: 4px;
+    background: linear-gradient(90deg,#000, #F0ED40 );
+}
+/*Todos os Links*/
+.contatos a{
+
+}
+.contatos .localizacao a{
+    color: #000;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.contatos .redesSociais{
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+.redesSociais a{
+    margin: 2px 0;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.redesSociais a img{
+    width: 20px;
+}
