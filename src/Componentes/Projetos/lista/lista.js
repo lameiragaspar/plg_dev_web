@@ -44,6 +44,9 @@ export default function Lista(){
                         O projeto é um clone das páginas de login e cadastro do site da Netflix.
                     </p>
                 </Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
             </div>
         </div>
     )

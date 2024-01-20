@@ -1,0 +1,55 @@
+.formulario{
+    padding: 0 0 10px;
+}
+.formulario form p{
+    padding: 12px 0;
+    margin-bottom: 20px;
+}
+form label{
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+form input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    font-size: 14px;
+    color: black;
+    margin-right: 70px;
+}
+input#sms{
+    height: 40px;
+}
+form .dadosPessoais,
+form .mensagem{
+    margin-right: 10px;
+}
+form .dadosPessoais{
+    display: flex;
+    gap: 20px;
+}
+.dadosPessoais div,
+.mensagem div{
+    display: flex;
+    flex-direction: column;
+}
+.dadosPessoais div input,
+.mensagem div input{
+    padding: 5px 1px;
+}
+.mensagem button{
+    padding: 10px;
+    color: #fff;
+    background-color: #121212;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.mensagem button:hover{
+    background-color: #000;
+    box-shadow: 0px 0px 10px #0000007e;
+}

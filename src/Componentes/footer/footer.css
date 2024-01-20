@@ -2,26 +2,26 @@ footer{
     background-color: #F0ED40;
 }
 footer .tam-max{
-    padding: 20px 0;
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
+    max-width: 1366px;
+    padding: 20px 60px;
 }
 .tam-max .contatos{
-    padding: 30px 0;
-    background-color: brown;
+    padding: 20px 0;
     width: 100%;
     display: flex;
     text-align: left;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 50px;
 }
+/*Localizão, endereço*/
 .contatos .localizacao{
     line-height: 42px;
 }
-.contatos .localizacao p:first-child{
+.localizacao h2{
+    margin-bottom: 20px;
+}
+.contatos .localizacao p:first-of-type{
     line-height: normal;
     margin-bottom: -8px;
     position: relative;
@@ -37,27 +37,33 @@ footer .tam-max{
 }
 /*Todos os Links*/
 .contatos a{
-
+    text-decoration: none;
+}
+.contatos a:hover{
+    text-decoration: underline;
 }
 .contatos .localizacao a{
     color: #000;
     padding: 5px;
     border-radius: 2px;
 }
-
+/*Redes sociais*/
 .contatos .redesSociais{
     display: flex;
     flex-direction: column;
-    line-height: 24px;
+}
+.redesSociais span{
+    padding: 12px 0;
+    background-color: #F0ED40;
+    margin-bottom: 20px;
 }
 .redesSociais a{
     margin: 2px 0;
-    text-decoration: none;
+    line-height: 24px;
     color: #000;
     display: flex;
     align-items: center;
     gap: 5px;
-    
 }
 .redesSociais a img{
     width: 20px;
