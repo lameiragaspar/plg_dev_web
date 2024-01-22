@@ -6,9 +6,6 @@
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
 }
-.App {
-  text-align: center;
-}
 .tam-max{
   max-width: 1024px;
   margin: 0 auto;

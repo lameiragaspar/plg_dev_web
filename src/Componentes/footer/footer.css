@@ -3,10 +3,10 @@ footer{
 }
 footer .tam-max{
     max-width: 1366px;
-    padding: 20px 60px;
+    padding: 20px 60px 0px;
 }
 .tam-max .contatos{
-    padding: 20px 0;
+    padding: 20px 0 10px;
     width: 100%;
     display: flex;
     text-align: left;

@@ -1,0 +1,44 @@
+.loadingPage{
+    background-color: #F0ED40;
+    max-width: 1366px;
+    height: 100vh;
+}
+.loadingPage .logoEform{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.logoEform .imagemLogo,
+.logoEform .boasVindas{
+    width: 50%;
+    height: 100vh;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoEform img{
+    width: 25%;
+}
+.logoEform .boasVindas{
+    background-color: #F0ED40;
+    display: flex;
+    flex-direction: column;
+}
+.loadingPage nav{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 20px 15px;
+}
+.link{
+   color: #000;
+}
+.link:hover{
+    background-color: transparent;
+    box-shadow: 0px 0px 5px #00000062;
+}
+.logoEform .formulario{
+    background-color: aqua;
+}
