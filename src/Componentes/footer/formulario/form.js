@@ -1,11 +1,11 @@
-import React,{useState} from "react";
+import React from "react";
 import './formulario.css'
 
 function Formulario() {
     return (
         <div className="formulario">
-            <form action="mailto:peldrolameira20@gmail.com" method="post" encType="text/plain">
-                <p>Ou envie uma mensagem aqui</p>
+            <form action="mailto:pedrolameira20@gmail.com" method="post" encType="text/plain">
+                <p>Envie uma mensagem aqui</p>
                 <div className="dadosPessoais">
                     <div>
                         <label htmlFor="nome">Nome</label>
@@ -23,7 +23,7 @@ function Formulario() {
                     </div>
                     <div className="txeEbotao">
                         <label htmlFor="sms">Sua mensagem</label>
-                        <textarea id="sms" name="mensagem" placeholder="Escreva sua mensagem aqui" required></textarea>
+                        <div className="tam-max-txt"><textarea id="sms" name="mensagem" placeholder="Escreva sua mensagem aqui" required></textarea></div>
                         <button type="submit">Enviar</button>
                     </div>
                 </div>

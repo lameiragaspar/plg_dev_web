@@ -1,17 +1,16 @@
 .formulario {
-    padding: 0;
+    width: 500px;
+    overflow-x: hidden;
+    padding: 5px;
 }
-
 .formulario form p {
     padding: 12px 0;
     margin-bottom: 20px;
 }
-
 form label {
     cursor: pointer;
-    padding-bottom: 10px;
+    text-align: left;
 }
-
 form input {
     width: 100%;
     background-color: transparent;
@@ -21,32 +20,33 @@ form input {
     color: black;
     margin-right: 70px;
 }
-
-input#sms {
-    height: 40px;
-}
-
-form .dadosPessoais,
-form .mensagem {
-    margin-right: 10px;
-}
-
 form .dadosPessoais {
     display: flex;
     gap: 20px;
 }
-
 .dadosPessoais div,
 .mensagem div {
     display: flex;
     flex-direction: column;
 }
-
 .dadosPessoais div input,
 .mensagem div input {
     padding: 5px 1px;
+    margin-bottom: 10px;
 }
-
+.tam-max-txt{
+    padding: 2px 0;
+    overflow-x: hidden;
+    margin-bottom: 5px;
+}
+textarea{
+    width: 105%;
+    height: 50px;
+    padding: 5px 25px 5px 5px;
+    border: none;
+    font-size: 14px;
+    background-color: #e6e6e6;
+}
 .mensagem button {
     padding: 10px;
     color: #fff;
@@ -58,8 +58,7 @@ form .dadosPessoais {
     cursor: pointer;
     transition: 0.3s;
 }
-
 .mensagem button:hover {
     background-color: #000;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px #00000080;
 }
