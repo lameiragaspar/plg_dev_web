@@ -17,15 +17,11 @@ export default function Card(props){
     return(
         <div className="box">
             <div className="card">
-
                 {/*Texto com a descrição dos cards*/}
-
                 <div className={info ? mostrar : esconder}>
                     {props.children}
                 </div>
-
                 {/*Fim do texto com a descrição dos cards*/}
-                
                 <h3>{props.titulo}</h3>
                 <div className="imagemProjeto">
                     <img src={props.imagem} alt={props.titulo}/>

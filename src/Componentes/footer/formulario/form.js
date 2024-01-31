@@ -4,7 +4,7 @@ import './formulario.css'
 function Formulario() {
     return (
         <div className="formulario">
-            <form>
+            <form action="mailto:pedrolameira20@gmail.com" method="post" encType="text/plain">
                 <p>Envie uma mensagem aqui</p>
                 <div className="dadosPessoais">
                     <div>
