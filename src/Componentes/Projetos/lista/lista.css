@@ -1,3 +1,27 @@
+section .tema .pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 5px;
+    transition: .5s;
+}
+.pesquisa input{
+    padding: 5px 7px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5f5f5f94;
+    color: #fff;
+    display: none;
+}
+input.mostrarBusca{
+    display: block;
+}
+.pesquisa img{
+    width: 25px;
+    filter: invert(100%);
+    cursor: pointer;
+}
 .lista .tam-max{
     padding: 50px 20px;
     background-color: #5f5f5f94;

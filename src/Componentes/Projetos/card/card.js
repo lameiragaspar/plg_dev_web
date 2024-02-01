@@ -26,22 +26,12 @@ export default function Card(props){
                 <div className="imagemProjeto">
                     <img src={props.imagem} alt={props.titulo}/>
                 </div>
-
                 <div className="icones">
-
                     <img onClick={alteraClass} className={info ? click : ''} src="/assets/info.png" alt="Informações" title="Informacões"/>
 
                     <a href={props.codigo} target="_blanck"><img src="/assets/githubW.png" alt="GitHub" title="Ver código"/></a>
-
                 </div>
                 <a className="botao" href={props.projeto} target="_blank">{props.botao}</a>
-                {/*
-                    titulo
-                    imagem
-                    codigo
-                    projeto
-                    botao
-                */}
             </div>
         </div>
     )

@@ -98,7 +98,6 @@ main #Sobre{
     background-size: cover;
     width: 40%;
     height: 400px;
-    background-color: brown;
     position: absolute;
     right: 50px;
 }
@@ -111,7 +110,15 @@ main #Projetos{
     background-color: #121212;
     color: #fff;
 }
+.tema{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .tema h2{
     text-align: left;
     padding-left: 50px;
+}
+.tema .lupa{
+    color: #fff;
 }

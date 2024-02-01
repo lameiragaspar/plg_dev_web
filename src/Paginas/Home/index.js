@@ -47,10 +47,7 @@ export default function Home(){
                     </div>
                 </section>
                 <section id='Projetos'>
-                    <div className='tam-max tema'>
-                        <h2>Projetos</h2>
-                    </div>
-                        <Lista />
+                    <Lista />
                 </section>
             </main>
             <Footer idFooter='Contatos'/>
