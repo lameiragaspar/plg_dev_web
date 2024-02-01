@@ -15,6 +15,14 @@ export default function LoadingPage(){
                     <nav>
                         <Link to='/' className='link'>Home</Link>
                     </nav>
+                    <div className='paragrafos'>
+                        <p>
+                        Como desenvolvedor web, reconheço a importância de um aprendizado contínuo, focado nos fundamentos sólidos de HTML, CSS, JavaScript e React JS.
+                        </p>
+                        <p>
+                        A prática constante, a construção de projetos reais e a compreensão dos princípios de design e usabilidade são essenciais para desenvolver habilidades significativas e criar experiências web eficazes. Estou animado para compartilhar minhas experiências com desenvolvimento web.
+                        </p>
+                    </div>
                     <Formulario />
                 </div>
             </div>

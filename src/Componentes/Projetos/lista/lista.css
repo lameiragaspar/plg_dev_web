@@ -3,10 +3,10 @@ section .tema .pesquisa{
     align-items: center;
     justify-content: baseline;
     gap: 5px;
-    transition: .5s;
+    padding: 2px;
 }
 .pesquisa input{
-    padding: 5px 7px;
+    padding: 7px 5px;
     width: 250px;
     border: none;
     border-radius: 10px;
@@ -18,7 +18,7 @@ input.mostrarBusca{
     display: block;
 }
 .pesquisa img{
-    width: 25px;
+    width: 29px;
     filter: invert(100%);
     cursor: pointer;
 }
