@@ -12,12 +12,13 @@ export const porjetos = [
         id:4, tecnologia:"react js" , titulo:"Sorveteria", imagem:"/assets/projetos/sorveteria.png",codigo:"https://github.com/lameiragaspar/Sorveteria",projeto:"https://sorveteriaplg.vercel.app/",botao:"Ver projeto", descricao:`Projeto desenvolvido em React JS! Esse projeto explora a utilização de rotas na criação de um SPA (Sigle Aplication Page) O que nos permite mudar entre as páginas de um site sem recarregar o navegador`
     },
     {
-        id:5, tecnologia:"html css e javascpit js" , titulo:"Calculadora", imagem:"",codigo:"#",projeto:"#",botao:"", descricao:``
+        id:5, tecnologia:"html css e javascpit js" , titulo:"Calculadora", imagem:"/assets/projetos/calculadora.png",codigo:"https://github.com/lameiragaspar/calculaora",projeto:"https://peaceful-rugelach-26b2d2.netlify.app/",botao:"Ver projeto", descricao:`Projeto deselvolvido puramente com HTML, CSS e JavaScrip ! Calculadora simples capaz de realizar as 4 operações básicas de matemática.`
     },
     {
         id:6, tecnologia:"" , titulo:"", imagem:"",codigo:"#",projeto:"#",botao:"", descricao:``
     },
     {
-        id:6, tecnologia:"" , titulo:"", imagem:"",codigo:"#",projeto:"#",botao:"", descricao:``
-    }
+        id:6, tecnologia:"html css" , titulo:"Clinica", imagem:"/assets/projetos/clinica.png",codigo:"https://github.com/lameiragaspar/clinica",projeto:"https://clinica-jade.vercel.app/index.html",botao:"Ver projeto", descricao:`Projeto desenvolvido com HTML e CSS! É um projeto que apresenta as informações gerais sobre uma clina `
+    },
+    
 ]
