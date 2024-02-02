@@ -1,0 +1,30 @@
+@media screen and (max-width: 555px) {
+    header .tam-max .menuOriginal{
+        display: none;
+    }
+    header .menu,
+    header .menu .hamburguer{
+        display: block;
+    }
+    header .menu .esconder{
+        display: none;
+    }
+    header .menu .mostrar{
+        background-color: #121212;
+        box-shadow: 0 0 7px #000000b2;
+        border-radius: 7px;
+        overflow: hidden;
+        padding: 0;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        top: -15px;
+        right: 0px;
+    }
+    .menu .mostrar .a{
+        width: 100%;
+        text-align: left;
+    }
+}

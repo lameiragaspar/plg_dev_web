@@ -1,7 +1,10 @@
+body{
+    background-color: #121212;
+}
 .loadingPage{
-    background-color: #F0ED40;
+    margin: 0 auto;
     max-width: 1366px;
-    height: 100vh;
+    box-shadow: 0 0 10px #000000;
 }
 .loadingPage .logoEform{
     display: flex;
@@ -12,7 +15,6 @@
 .logoEform .imagemLogo,
 .logoEform .boasVindas{
     width: 50%;
-    height: 100vh;
     background-color: #121212;
     display: flex;
     align-items: center;
@@ -25,6 +27,12 @@
     background-color: #F0ED40;
     display: flex;
     flex-direction: column;
+    padding: 20px 20px 40px;
+}
+.boasVindas .logoBemvindo{
+    margin-bottom: 10px;
+    width: 77px;
+    display: none;
 }
 .boasVindas nav{
     padding-bottom: 15px;
@@ -44,4 +52,24 @@
 .paragrafos p{
     line-height: 24px;
     margin-bottom: 10px;
+}
+@media screen and (max-width: 1024px) {
+    .logoEform .imagemLogo{
+        width: 40%;
+    }
+    .logoEform .boasVindas{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 874px) {
+    .logoEform .imagemLogo{
+        display: none;
+    }
+    .logoEform .boasVindas{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .boasVindas .logoBemvindo{
+        display: block;
+    }
 }

@@ -54,7 +54,7 @@ main #Sobre{
     padding: 70px 20px;
 }
 #Sobre .tam-max{
-    padding: 0px ;
+    padding: 0px;
     text-align: left;
     display: flex;
     align-items: center;
@@ -102,23 +102,3 @@ main #Sobre{
     right: 50px;
 }
 /*Fim do sobre*/
-
-/*Seção Projetos*/
-main #Projetos{
-    padding: 20px 0 50px;
-    width: 100%;
-    background-color: #121212;
-    color: #fff;
-}
-.tema{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.tema h2{
-    text-align: left;
-    padding-left: 50px;
-}
-.tema .lupa{
-    color: #fff;
-}

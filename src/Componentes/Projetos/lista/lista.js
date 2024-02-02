@@ -4,13 +4,15 @@ import { BuscaProjeto, retornaProjeto } from "./servicos.js";
 import './lista.css'
 
 export default function Lista(){
-    //Class Input
+    //Class Input --> Serve para mostrar ou esconder o input a cada clique
     const on = "mostrarBusca"
+
     const [campoDeBusca, setCampoDeBusca] = useState(false)
     function mostrarInput (){
         setCampoDeBusca(!campoDeBusca)
     }
-
+    
+    //Fim da configuração
     const [listaProjetos, setListaProjetos] = useState(retornaProjeto())
     const [buscaProjeto, setBuscaProjeto] = useState("")
 
@@ -18,6 +20,7 @@ export default function Lista(){
         setBuscaProjeto(txtPesquisado)
         setListaProjetos(BuscaProjeto(txtPesquisado))
     }
+
     return(
         <section>
             <div className='tam-max tema'>

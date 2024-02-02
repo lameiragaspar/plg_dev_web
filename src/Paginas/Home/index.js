@@ -4,6 +4,7 @@ import Header from '../../Componentes/Header/header.js';
 import Lista from '../../Componentes/Projetos/lista/lista.js';
 import Footer from '../../Componentes/footer/footer.js';
 import './style.css'
+import './mediasIndex.css'
 
 export default function Home(){
     return(
@@ -13,7 +14,7 @@ export default function Home(){
                 <section className='banner'>
                     {/*Imagem de fundo*/}
                     <div className='apresentacao'>
-                        <h1>Olá! Eu sou o Pedro</h1>
+                        <h1>Olá, Eu sou o Pedro!</h1>
                         <p>Desenvolvedor Web</p>
                         <div className="tecnologias">
                             <img src='/assets/html.png' alt='HTML' title='HTML'/>

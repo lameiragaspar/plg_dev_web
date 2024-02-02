@@ -1,0 +1,79 @@
+@media screen and (max-width: 865px) {
+    /*Seção sobre*/
+    main #Sobre .tam-max{
+       position: relative;
+    }
+    main #Sobre .tam-max .foto{
+        width: 45%;
+        height: 400px;
+        right: 0px;
+    }
+    /*Fim do sobre*/
+}
+@media screen and (max-width: 800px){
+    /*Seção sobre*/
+    main #Sobre{
+       padding: 100px 20px 70px;
+    }
+    main #Sobre .tam-max .sobre{
+       width: 78%;
+    }
+    main #Sobre .tam-max .foto{
+       width: 30%;
+       height: 230px;
+       right: 0px;
+       top: -75px;
+   }
+   /*Fim do sobre*/
+}
+
+@media screen and (max-width: 679px) {
+    /*Seção sobre*/
+    main #Sobre{
+        padding: 100px 10px;
+    }
+    main #Sobre .tam-max .sobre{
+        width: 85%;
+        padding: 70px 60px;
+    }
+    main #Sobre .tam-max .foto{
+        width: 30%;
+        height: 180px;
+        right: 0px;
+        top: -75px;
+        border-radius: 2px 0;
+    }
+    /*Fim do sobre*/
+}
+
+@media screen and (max-width: 555px) {
+    /*Banner*/
+    main .banner .apresentacao h1{
+        font-size: 40px;
+    }
+    .apresentacao p{
+        font-size: 20px;
+    }
+    .apresentacao .tecnologias img{
+        width: 35px;
+    }
+    .apresentacao .link,
+    .apresentacao a{
+    font-size: 17px;
+    }
+    /*Fim do banner*/
+    /*Seção sobre*/
+    main #Sobre{
+        padding: 120px 10px 70px;
+    }
+    main #Sobre .tam-max .sobre{
+        width: 100%;
+        padding: 80px 40px 50px;
+    }
+    main #Sobre .tam-max .foto{
+        width: 150px;
+        height: 160px;
+        top: -90px;
+        right: 35%;
+    }
+}

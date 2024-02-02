@@ -18,7 +18,7 @@ export const porjetos = [
         id:6, tecnologia:"" , titulo:"", imagem:"",codigo:"#",projeto:"#",botao:"", descricao:``
     },
     {
-        id:6, tecnologia:"html css" , titulo:"Clinica", imagem:"/assets/projetos/clinica.png",codigo:"https://github.com/lameiragaspar/clinica",projeto:"https://clinica-jade.vercel.app/index.html",botao:"Ver projeto", descricao:`Projeto desenvolvido com HTML e CSS! É um projeto que apresenta as informações gerais sobre uma clina `
+        id:7, tecnologia:"html css" , titulo:"Clinica", imagem:"/assets/projetos/clinica.png",codigo:"https://github.com/lameiragaspar/clinica",projeto:"https://clinica-jade.vercel.app/index.html",botao:"Ver projeto", descricao:`Projeto desenvolvido com HTML e CSS! É um projeto que apresenta as informações gerais sobre uma clina `
     },
     
 ]

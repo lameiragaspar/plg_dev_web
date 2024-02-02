@@ -1,3 +1,24 @@
+/*Seção Projetos*/
+main #Projetos{
+    padding: 20px 0 50px;
+    width: 100%;
+    background-color: #121212;
+    color: #fff;
+}
+.tema{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.tema h2{
+    text-align: left;
+    padding-left: 50px;
+}
+.tema .lupa{
+    color: #fff;
+}
 section .tema .pesquisa{
     display: flex;
     align-items: center;
@@ -32,4 +53,23 @@ input.mostrarBusca{
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px 62px;
+}
+
+@media screen and (max-width: 555px) {
+    section .tema{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    section .tema h2{
+        text-align: left;
+        padding: 0;
+    }
+    .tema .pesquisa{
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .tema .pesquisa input{
+        width: 200px;
+    }
 }
