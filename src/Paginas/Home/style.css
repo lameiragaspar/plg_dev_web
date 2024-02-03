@@ -3,7 +3,7 @@ main{
 }
 /*Configurando o BANNER*/
 main .banner{
-    height: 87vh;
+    height: calc(100vh - 80px);
     background:url(/public/assets/banne.jpg) no-repeat center bottom;
     background-size: cover;
 }
