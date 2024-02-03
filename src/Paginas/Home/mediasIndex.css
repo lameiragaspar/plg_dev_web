@@ -64,16 +64,13 @@
     /*Fim do banner*/
     /*Seção sobre*/
     main #Sobre{
-        padding: 120px 10px 70px;
+        padding: 50px 10px ;
     }
     main #Sobre .tam-max .sobre{
         width: 100%;
-        padding: 80px 40px 50px;
+        padding: 50px 40px;
     }
     main #Sobre .tam-max .foto{
-        width: 150px;
-        height: 160px;
-        top: -90px;
-        right: 35%;
+        display: none;
     }
 }

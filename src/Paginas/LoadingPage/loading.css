@@ -4,6 +4,7 @@ body{
 .loadingPage{
     margin: 0 auto;
     max-width: 1366px;
+    min-height: 100vh;
     box-shadow: 0 0 10px #000000;
 }
 .loadingPage .logoEform{
@@ -25,6 +26,7 @@ body{
 }
 .logoEform .boasVindas{
     background-color: #F0ED40;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 20px 20px 40px;

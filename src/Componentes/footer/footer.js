@@ -15,9 +15,9 @@ export default function Footer(props){
                     </div>
                     <div className='redesSociais'>
                         <span>Permaneça conectado</span>
-                        <a href='https://github.com/lameiragaspar' target='_blanck'><img src='/assets/github.png'alt='github'/>GitHub</a>
-                        <a href='https://www.linkedin.com/in/pedro-lameira-gaspar-b53056274/' target='_blanck'><img src='/assets/linkdin.png' alt='linkedin'/>Linkdin</a>
-                        <a href='https://www.instagram.com/lameira_dev_web/' target='_blanck'><img src='/assets/insta.png'  alt='instagram'/>instagram</a>
+                        <a href='https://github.com/lameiragaspar' target='_blanck'><img src='/assets/github.png'/>GitHub</a>
+                        <a href='https://www.linkedin.com/in/pedro-lameira-gaspar-b53056274/' target='_blanck'><img src='/assets/linkdin.png'/>Linkdin</a>
+                        <a href='https://www.instagram.com/lameira_dev_web/'><img src='/assets/insta.png' target='_blanck'/>instagram</a>
                     </div>
                     <Formulario />
                 </section>

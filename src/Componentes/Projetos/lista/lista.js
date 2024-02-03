@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import Card from "../card/card.js";
 import { BuscaProjeto, retornaProjeto } from "./servicos.js";
+import Card from "../card/card.js";
 import './lista.css'
 
 export default function Lista(){

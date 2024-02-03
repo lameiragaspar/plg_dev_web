@@ -22,7 +22,7 @@ export default function Home(){
                             <img src='/assets/js.png' alt='JavaSript' title='JavaSript'/>
                             <img src='/assets/react.png' alt='React JS' title='React JS'/>
                         </div>
-                        <Link to='/loadingPage'>Agende agora</Link>
+                        <Link className='agenda' to='/loadingPage'>Agende agora</Link>
                     </div>
                 </section>
                 <section id='Sobre'>

@@ -26,6 +26,7 @@ main .banner{
 }
 .apresentacao .tecnologias{
     background-color: #fafafa41;
+    margin-bottom: 20px;
     padding: 0 10px ;
     display: flex;
     align-items: center;
@@ -44,6 +45,10 @@ main .banner{
     padding: 10px;
     font-size: 18px;
     text-decoration: none;
+}
+.apresentacao .agenda:hover{
+    border-radius: 3px;
+    background-color: #e4e134;
 }
 /*Fim do banner*/
 
@@ -94,7 +99,7 @@ main #Sobre{
     transition: .5s;
 }
 #Sobre .tam-max .foto{
-    background: url(../../../public/assets/person.jpg) no-repeat center;
+    background: url(../../../public/assets/passs.jpeg) no-repeat center;
     background-size: cover;
     width: 40%;
     height: 400px;
