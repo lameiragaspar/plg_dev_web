@@ -28,6 +28,7 @@ export default function Lista(){
                 <div className='pesquisa'>
                     <input className={campoDeBusca ? on : ""}
                     type='text'
+                    autoFocus
                     placeholder='Pesquise uma tecnologia ou projeto'
                     value={buscaProjeto}
                     onChange={(event) => handleBuscaProjeto(event.target.value)}/>
@@ -43,7 +44,7 @@ export default function Lista(){
                             imagem={projeto.imagem.valueOf() === "" ? "/assets/projetos/andamento.jpg" : projeto.imagem}
                             codigo ={projeto.codigo}
                             projeto={projeto.projeto}
-                            botao={projeto.botao.valueOf() !== "Ver projeto" ? "Em andamenteto": "Ver projeto"}
+                            botao={projeto.botao.valueOf() === "" ? "Em andamenteto" : "Ver projeto"}
                         >
                             <h3>{projeto.titulo}</h3>
                             <p>{projeto.descricao}</p>

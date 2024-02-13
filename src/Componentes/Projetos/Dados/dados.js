@@ -1,6 +1,6 @@
 export const porjetos = [
     {
-        id:1, tecnologia:"html e css" , titulo:"Alfa-Tech", imagem:"/assets/projetos/alfa.png",codigo:"https://github.com/lameiragaspar/alfa-tech",projeto:"https://lameiragaspar.github.io/alfa-tech/",botao:"Ver projeto", descricao:`Projeto desenvolvido com HTML e CSS puros! É um projeto referente a um site de hospedagem onde seus clientes podem usufruir dos melhores serviços ao preço mais barato.`
+        id:1, tecnologia:"html e css" , titulo:"Alfa-Tech", imagem:"/assets/projetos/alfa.png",codigo:"https://github.com/lameiragaspar/alfa-tech",projeto:"https://lameiragaspar.github.io/alfa-tech/",botao:"1", descricao:`Projeto desenvolvido com HTML e CSS puros! É um projeto referente a um site de hospedagem onde seus clientes podem usufruir dos melhores serviços ao preço mais barato.`
     },
     {
         id:2, tecnologia:"react js" , titulo:"Barbearia", imagem:"/assets/projetos/barbearia.png",codigo:"https://github.com/lameiragaspar/Barbearia",projeto:"https://barbeariaplg.vercel.app/",botao:"Ver projeto", descricao:`Projeto desenvolvido em React JS! O projeto apresenta uma loadingPage de uma barbearia onde o usuário pode alterar os estilos da página entre ligth e dark.`
