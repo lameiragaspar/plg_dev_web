@@ -72,4 +72,7 @@ input.mostrarBusca{
     .tema .pesquisa input{
         width: 200px;
     }
+    .lista .tam-max{
+        padding: 50px 10px;
+    }
 }

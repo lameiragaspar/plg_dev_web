@@ -43,7 +43,8 @@ form .dadosPessoais {
     margin-bottom: 5px;
 }
 textarea{
-    width: 105%;
+    width: 100%;
+    resize: none;
     height: 50px;
     padding: 5px 25px 5px 5px;
     border: none;

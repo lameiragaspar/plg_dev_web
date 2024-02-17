@@ -46,6 +46,10 @@ main .banner{
     font-size: 18px;
     text-decoration: none;
 }
+.agenda{
+    border-radius: 5px;
+    box-shadow: 0 0 10px #F0ED40;
+}
 .apresentacao .agenda:hover{
     border-radius: 3px;
     background-color: #e4e134;
