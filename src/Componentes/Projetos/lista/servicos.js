@@ -7,6 +7,6 @@ export const retornaProjeto = () => {
 export const BuscaProjeto = (txtPesquisado) => (
     porjetos.filter(projeto =>
     projeto.titulo.toLocaleLowerCase().trim().includes(txtPesquisado.toLocaleLowerCase().trim()) ||
-    projeto.tecnologia.toLocaleLowerCase().trim.includes(txtPesquisado.toLocaleLowerCase().trim())
+    projeto.tecnologia.toLocaleLowerCase().trim().includes(txtPesquisado.toLocaleLowerCase().trim())
     )
 )
